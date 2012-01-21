@@ -1,0 +1,28 @@
+{
+	'success': true,
+	'count': 4,
+	'rows': [
+		{
+			'id': 1,
+			'label': 'Strawberries',
+			'banned': false
+		},
+		{
+			'id': 2,
+			'label': 'Raspberries',
+			'banned': true,
+			'banReason' : 'Not available in this season.'
+		},
+		{
+			'id': 3,
+			'label': 'Bananas',
+			'banned': true,
+			'banReason': 'Out of stock.'
+		},
+		{
+			'id': 4,
+			'label': 'Pears',
+			'banned': false
+		},
+	]
+}
